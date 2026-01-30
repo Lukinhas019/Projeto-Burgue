@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+body {
+    background-image: url(./Fotos/8671589.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-color: #f8c973ce;
+    background-blend-mode: lighten;
+    
+}
+
+img {
+    width: 170px;
+    height: 160px;
+    margin: 20px;
+    border-radius: 15px;
+    object-fit: cover
+}
+
+.conteiner-topo {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000cc;
+    gap: 20px;
+}
+
+button {
+    padding:20px;
+    background-color: #ffd900;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: bold, 16px;
+    font-weight: bold;
+    
+}
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+ul { 
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 200pxpx;
+
+
+}
+li { 
+    border : 2px solid rgba(0, 0, 0, 0.671);
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
